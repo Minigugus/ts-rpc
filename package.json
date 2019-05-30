@@ -1,0 +1,25 @@
+{
+  "name": "ts-rpc",
+  "version": "0.1.0",
+  "description": "A simple RPC-based API using TypeScript type checking to ensure correct API calls & implementation.",
+  "main": "dist/index.js",
+  "private": true,
+  "repository": "https://github.com/Minigugus/ts-rpc",
+  "author": "Minigugus <florentin2501@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "npx rollup -c"
+  },
+  "dependencies": {
+    "@babel/core": "^7.4.5",
+    "@types/express": "^4.16.1",
+    "express": "^4.17.1",
+    "rollup": "^1.12.5",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-commonjs": "^10.0.0",
+    "rollup-plugin-node-resolve": "^5.0.0",
+    "rollup-plugin-terser": "^5.0.0",
+    "rollup-plugin-typescript2": "^0.21.1",
+    "typescript": "^3.5.1"
+  }
+}
